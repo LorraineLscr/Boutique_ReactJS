@@ -1,0 +1,23 @@
+nav ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 134, 152);
+}
+
+nav li{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+nav li:hover{
+    background-color: rgb(219, 50, 78);
+    color: white;
+    border-radius: 10%;
+}
+
+

@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "raleway";
+}
+
+.playerContainer {
+    position : fixed; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.logo{
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.player {
+    width: 40vw;
+    background-color: rgb(89, 129, 89);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.slider img {
+    width: 100%;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.prev,
+.next {
+    width: 4vw;
+    cursor: pointer;
+
+}
+
+.playPause {
+    width: 5vw;
+    cursor: pointer;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 2px black solid;
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: 2rem;
+
+}
+
+.infos {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navVolume {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.volumeDown {
+    width: 4vw;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.volumeUp {
+    width: 6vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:576px) {
+    .player {
+        width: 75vw;
+        padding: 1rem 2.4rem 1rem 2.4rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .prev,
+    .next {
+        width: 7vw;
+
+    }
+
+    .playPause {
+        width: 10vw;
+    }
+    .time {
+        width: 80%;
+    
+    }
+    .infos {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .volumeDown {
+        width: 8vw;
+    }
+
+    .volumeUp {
+        width: 11vw;
+    }
+}

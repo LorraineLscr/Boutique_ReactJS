@@ -1,0 +1,11 @@
+.cardContainer{
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: space-between;
+}
+
+h2{
+    padding: 1rem; 
+}

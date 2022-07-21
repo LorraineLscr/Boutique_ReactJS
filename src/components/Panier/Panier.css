@@ -1,0 +1,32 @@
+.panier {
+    position: fixed;
+    overflow-y: scroll;
+    width: 100vw;
+    height: 80vh;
+    z-index: 1; 
+    top: 5rem;
+    background-color: rgba(204, 164, 171, 0.923);
+    color: black;
+}
+
+table{
+    width: 80%; 
+    margin: 0 auto;
+}
+
+table img{
+    max-width: 5rem;
+    border-radius: 10%;
+}
+
+.total{
+    float: right;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.tdpanier{
+    font-size: 2rem;
+}
